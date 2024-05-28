@@ -1,0 +1,232 @@
+.skillslink-active {
+    color: black !important;
+}
+
+header.masthead {
+    padding-top: 17.5rem;
+    padding-bottom: 25rem;
+    text-align: center;
+    color: #fff;
+    background-image: url('../Images/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Lucida Handwriting";
+
+}
+
+.typer {
+    height: 100px;
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+.profImagediv {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/profImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.about {
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 2%;
+}
+
+
+.project-card1,
+.project-card2,
+.project-card3 {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    transition: 1s;
+}
+
+
+.title {
+    display: block;
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-top: auto;
+}
+
+
+.project-readmore {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+
+.project-card1 {
+    background-image: url('../Images/cinema.jpg');
+}
+
+.project-card2 {
+    background-image: url('../Images/chat.jpg');
+}
+
+.project-card3 {
+    background-image: url('../Images/hiring.jpg');
+}
+
+.skills-card {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.pipe {
+    width: 100%;
+    background-color: rgb(212, 211, 211);
+    height: 15px;
+    border-radius: 18px;
+    margin-top: 0.5%;
+}
+
+.skillpower {
+    height: 100%;
+    border-radius: 18px;
+    width: 0% !important;
+    transition: 1s;
+}
+
+.skillpower-active {
+    height: 100%;
+    border-radius: 18px;
+    width: none;
+    transition: 1s;
+}
+
+.contact-card {
+    border-radius: 40px;
+    width: 45%;
+    border: unset;
+}
+
+.goUp-card {
+    height: 70px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    transition: 1s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.goUp-card:hover {
+    background-color: rgb(112, 111, 111);
+}
+
+.goUp-card-move {
+    bottom: 4%;
+    transition: 1.5s;
+}
+
+
+@media(max-width:1399px) {
+
+    .project-card1,
+    .project-card2,
+    .project-card3 {
+        height: 25rem;
+    }
+
+    .contact-card {
+        width: 50%;
+    }
+}
+
+@media(max-width:1200px) {
+
+    .project-card1,
+    .project-card2,
+    .project-card3 {
+        height: 23rem;
+    }
+
+    .contact-card {
+        width: 60%;
+    }
+}
+
+@media(max-width:992px) {
+
+    .project-card1,
+    .project-card2,
+    .project-card3 {
+        height: 18rem;
+    }
+
+    .contact-card {
+        width: 75%;
+    }
+}
+
+@media(max-width:768px) {
+
+    .project-card1,
+    .project-card2,
+    .project-card3 {
+        height: 13rem;
+    }
+
+    .title {
+        font-size: large;
+    }
+
+    .project-readmore {
+        font-size: small;
+    }
+
+    .contact-card {
+        width: 85%;
+    }
+
+    .footer-text {
+        font-size: x-large;
+    }
+}
+
+@media(max-width:768px) {
+    .about {
+
+        font-size: large;
+
+    }
+
+    .project-card1,
+    .project-card2,
+    .project-card3 {
+        height: 10rem;
+    }
+
+
+}
